@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/gob"
 	"fmt"
 	"log"
 	"net/http"
@@ -9,6 +10,7 @@ import (
 	"github.com/alexedwards/scs/v2"
 	"github.com/prashkotam/bednbreakfast/internal/config"
 	"github.com/prashkotam/bednbreakfast/internal/handlers"
+	"github.com/prashkotam/bednbreakfast/internal/models"
 	"github.com/prashkotam/bednbreakfast/internal/render"
 )
 
@@ -20,6 +22,9 @@ var session *scs.SessionManager
 
 func main() {
 
+	//What am I going to put in the session
+	gob.Register(models.Reservation{})
+	
 	App.InProduction = false
 
 	session = scs.New()
