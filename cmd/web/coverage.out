@@ -1,0 +1,13 @@
+mode: set
+github.com/prashkotam/bednbreakfast/cmd/web/main.go:23.13,26.17 2 0
+github.com/prashkotam/bednbreakfast/cmd/web/main.go:26.17,28.4 1 0
+github.com/prashkotam/bednbreakfast/cmd/web/main.go:32.2,41.16 4 0
+github.com/prashkotam/bednbreakfast/cmd/web/main.go:41.16,43.3 1 0
+github.com/prashkotam/bednbreakfast/cmd/web/main.go:46.18,61.16 10 1
+github.com/prashkotam/bednbreakfast/cmd/web/main.go:61.16,64.3 2 0
+github.com/prashkotam/bednbreakfast/cmd/web/main.go:66.2,75.12 6 1
+github.com/prashkotam/bednbreakfast/cmd/web/middleware.go:11.53,13.71 1 0
+github.com/prashkotam/bednbreakfast/cmd/web/middleware.go:13.71,17.3 2 0
+github.com/prashkotam/bednbreakfast/cmd/web/middleware.go:21.45,32.2 3 1
+github.com/prashkotam/bednbreakfast/cmd/web/middleware.go:35.50,38.2 1 1
+github.com/prashkotam/bednbreakfast/cmd/web/routes.go:12.49,40.2 19 1
